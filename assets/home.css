@@ -35,3 +35,26 @@
 .home-start .start .button {
     max-width: 400px;
 }
+
+/* Medium devices (landscape tablets, 689px and up) */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .home-image img {
+        width: 400px;
+    }
+}
+
+/* Extra small devices (phones, 688px and down) */
+@media only screen and (max-width: 688px) {
+    .home-page .container {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        gap: 10px;
+    }
+    .home-image img {
+        width: 200px;
+    }
+    .home-start {
+        text-align: center;
+        max-width: 300px;
+    }
+}

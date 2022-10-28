@@ -5,12 +5,14 @@
 
 .mcq-page .container {
     max-width: 600px;
+    position: relative;
 }
 
 .mcq-page .container .timer {
-    width: 600px;
     position: fixed;
-    top: 20px;
+    max-width: 580px;
+    width: 100%;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
@@ -32,9 +34,9 @@
 }
 
 .quiz-container {
-    position: absolute;
-    width: 600px;
-    top: 100px;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
     padding: 20px 0;
     height: auto;
 }
@@ -43,7 +45,12 @@
     background-color: #ffffff;
     padding: 20px;
     border-radius: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 100px;
+}
+
+.quiz-container > .quiz-item  ~ .quiz-item {
+    margin-top: 0;
 }
 
 .quiz-item h4 {
@@ -54,4 +61,39 @@
 .quiz-item .quiz .option {
     margin-bottom: 5px;
     font-size: 18px;
+}
+
+
+/* Medium devices (landscape tablets, 689px and up) */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .mcq-page .container .timer, .quiz-container {
+        max-width: 500px;
+    }
+
+    .quiz-item h4 {
+        font-size: 18px;
+    }
+
+    .quiz-item .quiz .option {
+        font-size: 16px;
+    }
+}
+
+/* Extra small devices (phones, 688px and down) */
+@media only screen and (max-width: 688px) {
+    .mcq-page .container .timer, .quiz-container {
+        max-width: 300px;
+    }
+
+    .quiz-item h4 {
+        font-size: 18px;
+    }
+
+    .quiz-item .quiz .option {
+        font-size: 16px;
+    }
+
+    .quiz-item {
+        margin-top: 120px;
+    }
 }
