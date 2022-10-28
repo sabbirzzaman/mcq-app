@@ -1,5 +1,5 @@
 # QUiZ APP
-## (Live Link)[https://quiizz-app-js.netlify.app/]
+## [Live Link](https://quiizz-app-js.netlify.app/)
 
 A quiz application where you have to answer 10 questions in 10 minutes
 
