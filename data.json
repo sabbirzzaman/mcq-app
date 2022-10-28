@@ -1,20 +1,107 @@
 [
     {
-      "id": "1",
-      "title": "What is the past form of 'eat'?",
-      "options": ["eat", "ate", "eaten", "have ate"],
-      "answer": "ate"
+        "id": "1",
+        "title": "What is the past form of 'eat'?",
+        "options": ["eat", "ate", "eaten", "have ate"],
+        "answer": "ate"
     },
     {
-      "id": "2",
-      "title": "Which sentence is present continuous tense?",
-      "options": [
-        "I eat rice",
-        "I am eating rice",
-        "I have eaten rice",
-        "I have been eating rice for 1 year"
-      ],
-      "answer": "I am eating rice"
+        "id": "2",
+        "title": "Which sentence is present continuous tense?",
+        "options": [
+            "I eat rice",
+            "I am eating rice",
+            "I have eaten rice",
+            "I have been eating rice for 1 year"
+        ],
+        "answer": "I am eating rice"
+    },
+    {
+        "id": "3",
+        "title": "She ________ in a small house near the park.",
+        "options": [
+            "living",
+            "live",
+            "lives",
+            "stays"
+        ],
+        "answer": "lives"
+    },
+    {
+        "id": "4",
+        "title": "I’ll send it to you ________ I get the money.",
+        "options": [
+            "in case",
+            "as soon as",
+            "unless",
+            "until"
+        ],
+        "answer": "as soon as"
+    },
+    {
+        "id": "5",
+        "title": "Winters here ________ be really cold sometimes, so make sure you bring warm clothes!",
+        "options": [
+            "could",
+            "can",
+            "may",
+            "might"
+        ],
+        "answer": "can"
+    },
+    {
+        "id": "6",
+        "title": "This house is ________, but also ________.",
+        "options": [
+            "bigger … expensiver",
+            "more big … expensiver",
+            "more big … more expensive",
+            "bigger … more expensive"
+        ],
+        "answer": "bigger … more expensive"
+    },
+    {
+        "id": "7",
+        "title": "It was the first time he ________ anything so spicy.",
+        "options": [
+            "had been eating",
+            "has eaten",
+            "was eating",
+            "had eaten"
+        ],
+        "answer": "had eaten"
+    },
+    {
+        "id": "8",
+        "title": "Where ________ he work?",
+        "options": [
+            "is",
+            "does",
+            "don't",
+            "do"
+        ],
+        "answer": "does"
+    },
+    {
+        "id": "9",
+        "title": "Take a sandwich with you ________ you get hungry later.",
+        "options": [
+            "when",
+            "so as not to",
+            "in case",
+            "if"
+        ],
+        "answer": "in case"
+    },
+    {
+        "id": "10",
+        "title": "By next month I ________ all my exams, and I can relax!",
+        "options": [
+            "will be finishing",
+            "will have finished",
+            "will have been finishing",
+            "will finish"
+        ],
+        "answer": "will have finished"
     }
- ]
- 
+]
