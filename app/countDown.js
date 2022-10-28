@@ -13,7 +13,12 @@ function countdown(elementName, minutes, seconds) {
             time = new Date(msLeft);
             hours = time.getUTCHours();
             mins = time.getUTCMinutes();
-            element.innerHTML = twoDigits(hours) + ':' + twoDigits(mins) + ':' + twoDigits(time.getUTCSeconds());
+            element.innerHTML =
+                twoDigits(hours) +
+                ':' +
+                twoDigits(mins) +
+                ':' +
+                twoDigits(time.getUTCSeconds());
             setTimeout(updateTimer, time.getUTCMilliseconds() + 500);
         }
     }

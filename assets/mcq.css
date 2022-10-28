@@ -47,11 +47,11 @@
 }
 
 .quiz-item h4 {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
-.quiz-item .quiz .question {
+.quiz-item .quiz .option {
     margin-bottom: 5px;
     font-size: 18px;
 }

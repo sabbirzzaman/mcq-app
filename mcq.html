@@ -14,151 +14,24 @@
     <body>
         <main>
             <div class="mcq-page">
-                <div class="container">
-                    <div class="timer">
-                        <h3>Remaining Time: <span id="countdown"></span></h3>
-                        <a class="button" href="./restlt.html">FINISH</a>
-                    </div>
-
-                    <div class="quiz-container">
-                        <div class="quiz-item">
-                            <h4>1. What is the past form of 'eat'?</h4>
-
-                            <div class="quiz">
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                            </div>
+                <div id="submit-form" class="container">
+                    <form class="quiz-container" id="quiz-container">
+                        <div class="timer">
+                            <h3>
+                                Remaining Time: <span id="countdown"></span>
+                            </h3>
+                            <input
+                                type="submit"
+                                class="button"
+                                value="FINISH"
+                            />
                         </div>
-                        <div class="quiz-item">
-                            <h4>1. What is the past form of 'eat'?</h4>
-
-                            <div class="quiz">
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="quiz-item">
-                            <h4>1. What is the past form of 'eat'?</h4>
-
-                            <div class="quiz">
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="quiz-item">
-                            <h4>1. What is the past form of 'eat'?</h4>
-
-                            <div class="quiz">
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="quiz-item">
-                            <h4>1. What is the past form of 'eat'?</h4>
-
-                            <div class="quiz">
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="quiz-item">
-                            <h4>1. What is the past form of 'eat'?</h4>
-
-                            <div class="quiz">
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                                <div class="question">
-                                    <input type="radio" name="eat" id="eat">
-                                    <label for="eat">Eat</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </main>
 
-        <script src="./app/main.js"></script>
-        <script src="./app/mcq.js"></script>
+        <script src="./app/quiz.js"></script>
+        <script src="./app/countDown.js"></script>
     </body>
 </html>
